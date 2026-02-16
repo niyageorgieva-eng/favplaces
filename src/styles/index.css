@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+    width: 100%; 
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center; 
+    height: 60px;
+    background: rgb(36, 36, 36);
+    position: fixed; 
+    z-index: 50; 
+  
+}
+header section {
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1; 
+    padding: 20px;
+}
+header .title {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1; 
+    font-family: "Fontdiner Swanky", serif;
+    
+    font-style: normal;
+
+   color: white;
+   letter-spacing: 3px; 
+   text-shadow: 4px 4px 8px black, -4px -4px 8px black; 
+  
+}
+
+header .subtitle {
+    margin: 1.5px;
+    font-weight:  200;
+    font-size: 20px;
+    font-family: "Comic Neue", serif;
+    color: rgba(255, 255, 255, 0.584);
+
+        letter-spacing: 9px; 
+        
+}
+
+
+
+nav a:hover {
+	opacity:0.5;  
+	transform: scale(1.1) 	
+}
+header ul {
+    display: flex;
+    list-style: none;
+    align-items:center ;
+    padding: 10px;
+
+    background-color: rgb(36, 36, 36);
+
+}
+header ul li a {
+    margin: 8px; 
+    padding: 4px;
+    font-family: "Poppins", serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;  
+    padding: 10px 25px;
+        
+}
+
+  
+#one {  
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: rgb(186, 193, 199);
+}
+
+footer {
+    width: 100%; 
+            
+    background: rgba(0, 0, 0, 0.8);  
+    color: white;
+    position: fixed;  
+    bottom: 0;
+    left: 0;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap; 
+
+}
+footer section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+        
+}
+
+footer section a {
+    color:white;
+}
+footer p {
+    margin: 0;
+    white-space: normal;
+    word-break: break-word; 
+    text-align: center; 
+}
+
+ 

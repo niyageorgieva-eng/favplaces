@@ -1,9 +1,25 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Places from "./pages/Places";
+import Gallery from "./pages/Gallery";
+
 function App() {
+
   return (
-    <div>
-      <h1>FavPlaces</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Places />
+        <Gallery />
+      </main>
+      <Footer />
+    </>
   );
 }
 
+
+
 export default App;
+
+ 
+

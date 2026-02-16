@@ -1,16 +1,17 @@
-# React + Vite
+## Progress Log
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Commit 1 – Project creation + github connection
 
-Currently, two official plugins are available:
+### Commit 2 – Components
+- Created Header Footer and Places components + pages.
+- base layout (nav bar + main section + footer).
+- Learned how React composes UI using components.
+- migrating and adapting applicable code parts (main + nav) from previous 
+  project, created in II semester (web design practicum)
+  (main from html with repeatebla elements + imgs => component opraviane na tag />)
+- migrated the gallery but cannot test - routing is needed
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Problems I had
+- React Router not installed → white screen
+- Missing imports broke the application
+ 
