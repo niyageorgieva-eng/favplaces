@@ -14,4 +14,18 @@
 ### Problems I had
 - React Router not installed → white screen
 - Missing imports broke the application
- 
+
+  ### Commit 3 - Prepare project for routing (cleanup + navigation adjustments)
+
+- Installed and configured React Router.
+- Created routes for Places and Gallery.
+- Navigation -> NavLink.
+- issue:  leftover <main> tags inside the Places page. Conflict with the layout.  
+- No '/' yet, will be implemented with login/reg pages 
+- Gallery: - too many repeating blocks → moving to a component + data array.
+- renaming pages/components ( caused import conflicts).
+- video not loading  - mixing destructuring and props + missing type/video
+- Fixing layout on zoom (header/footer). (It turned out that I couldn't fix zoom not to affect the header at all.)
+- Placecard component - many repeating blocks - optimization needed (array/map)
+- Fixing Places grid (dropping on the next row @  zoom in)
+- Have to add <img ..loading="lazy" & decoding="async" />
