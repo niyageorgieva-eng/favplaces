@@ -1,17 +1,17 @@
- 
-main {
+.placesPage {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 40px;
       padding-top: 80px;
       padding-bottom: 80px;
-      height: 100%; 
-      overflow-y: auto;   
-      justify-content: center;  
+      flex: 1;
+
 }
 
-main .placeContainer{
+
+
+ .placeContainer{
     padding: 60px 68px;
     display: flex;
     justify-content: space-between;
@@ -23,29 +23,31 @@ main .placeContainer{
     align-items: center;
     justify-content: center;
     padding-bottom: 80px;
-    
+      max-width: 1200px;
+
+  box-sizing: border-box;
 }
  
-main .placeContainer .places {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(160px, 1fr));  
-    justify-content: center;
-    align-items: center;
-    gap:  35px 30px;
-    width: 100%;
+.placeContainer .places {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 35px 30px;
+  width: 100%;
 }
  
-main .placeContainer .placeTitle {
+ .placeContainer .placeTitle {
     margin-bottom: 40px; 
     text-align: center;  
     letter-spacing: 4px;
     font-size: 30px;
 }
-main .placeContainer .favPlace {
+ .placeContainer .favPlace {
     text-align: center;
     margin-bottom: 30px; 
 }
-main .placeContainer .favPlace .placeTitle {
+ .placeContainer .favPlace .placeTitle {
     font-family: "Lobster", serif;
     color:#1c3f4bf4;    
     text-decoration: underline;
@@ -55,14 +57,14 @@ main .placeContainer .favPlace .placeTitle {
     letter-spacing: 2px; 
 }
  
-main .placeContainer .place img {
-    width: 150px;
-    height: 150px;
+ .placeContainer .place img {
+    width: 180px;
+    height: 180px;
     border-radius: 100%; 
     object-fit: cover;
 }
  
-main .placeContainer .place .placeName {
+ .placeContainer .place .placeName {
     margin-top: 10px;
     font-weight: bold; 
     font-family: 'Merriweather', serif;
@@ -72,7 +74,7 @@ main .placeContainer .place .placeName {
     letter-spacing: 1px;
 }
  
-main .placeContainer .place {
+ .placeContainer .place {
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -81,10 +83,4 @@ main .placeContainer .place {
 }
                   
      
-    main .placeContainer .place img {
-        width: 100px;
-        height: 100px;
-        border-radius: 100%; 
-        object-fit: cover;
-    }
-    
+ 

@@ -3,15 +3,9 @@ import PlaceCard from "../components/PlaceCard";
 
 function Places() {
   return (
-    <main>
-                                           
-         <section className="places">
-
+    <section className="placesPage">
       <PlaceCard />
-
-
     </section>
-    </main>
   );
 }
 export default Places;

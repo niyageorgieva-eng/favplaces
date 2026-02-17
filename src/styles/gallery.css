@@ -1,39 +1,21 @@
- body{
-    align-items: center;  
-    background-size: cover;  
-    background-position: center; 
-    background-repeat: no-repeat; 
-      background-image: none !important;
-  background: white !important;
-
-}
-
-
-#two {  
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-color: rgb(186, 193, 199);
+.galleryMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 110px;
+    padding-bottom: 80px;
 }
 
 .galleryPage {
   background: white;
   min-height: 100vh;
+  flex: 1;
 }
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px; 
-    background: none; 
-    height: 100%; 
-    overflow-y: auto; 
-    justify-content: center; 
-    padding-top: 110px;
-    padding-bottom: 80px;
-}
+
  
  
-main.gallery-container {
+.gallery-container {
     width: 60%;
     background: white;
     margin: 32px auto;

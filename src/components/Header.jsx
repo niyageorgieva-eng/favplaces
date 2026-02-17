@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function Header() {
+function Header() {
   return (
     <header>
       <section>
@@ -9,19 +9,16 @@ export default function Header() {
 
       <nav>
         <ul>
-          <li>
-            <NavLink to="/places" className={({ isActive }) => (isActive ? "active" : "")}>
-              Places
-            </NavLink>
-          </li>
+          
+            <li><NavLink to="/places">Places</NavLink></li>
+              
 
           <li>
-            <NavLink to="/gallery" className={({ isActive }) => (isActive ? "active" : "")}>
-              Gallery
-            </NavLink>
+            <NavLink to="/gallery">Gallery</NavLink>
           </li>
         </ul>
       </nav>
     </header>
   );
 }
+export default Header;
