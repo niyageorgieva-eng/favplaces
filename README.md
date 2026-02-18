@@ -29,3 +29,12 @@
 - Placecard component - many repeating blocks - optimization needed (array/map)
 - Fixing Places grid (dropping on the next row @  zoom in)
 - Have to add <img ..loading="lazy" & decoding="async" />
+
+  ### Commit 4 - Adjusting components & adding Add/Delete options (hooks for places)
+- placesData.js creation - moving all images from placecard
+- css za add/delete button
+- (UseState)
+- setPlaces((oldPlaces) => [...oldPlaces, newPlace]); (hard conception to me)
+    oldPlaces = arrai in update moment  ->  onAdd(newPlace) - updated
+          *New state,           *React checks .map(),           *new  PlaceCard rendered!!!
+- Issue: if all cards are deleted - no add button.. 
