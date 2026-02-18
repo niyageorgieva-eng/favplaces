@@ -36,5 +36,7 @@
 - (UseState)
 - setPlaces((oldPlaces) => [...oldPlaces, newPlace]); (hard conception to me)
     oldPlaces = arrai in update moment  ->  onAdd(newPlace) - updated
-          *New state,           *React checks .map(),           *new  PlaceCard rendered!!!
+          *New state -> *React checks .map() -> *new  PlaceCard rendered!!!
 - Issue: if all cards are deleted - no add button.. 
+- Issue - no Add button if all elements are deleted 
+

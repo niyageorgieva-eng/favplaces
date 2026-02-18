@@ -1,0 +1,62 @@
+export const placesData = [
+  {
+    id: 1,
+    name: "Maldives",
+    image:
+      "https://plus.unsplash.com/premium_photo-1666286163385-abe05f0326c4?q=80&w=1975&auto=format&fit=crop",
+  },
+  {
+    id: 2,
+    name: "Seychelles",
+    image:
+      "https://images.unsplash.com/photo-1516534726759-c5ae5aea7965?q=80&w=1974&auto=format&fit=crop",
+  },
+  {
+    id: 3,
+    name: "Bora Bora",
+    image:
+      "https://images.unsplash.com/photo-1589197331516-4d84b72ebde3?q=80&w=1974&auto=format&fit=crop",
+  },
+  {
+    id: 4,
+    name: "Greece",
+    image:
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: 5,
+    name: "Italy",
+    image:
+      "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: 6,
+    name: "Philippines",
+    image:
+      "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?q=80&w=1974&auto=format&fit=crop",
+  },
+  {
+    id: 7,
+    name: "Spain",
+    image:
+      "https://images.unsplash.com/photo-1561632669-7f55f7975606?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: 8,
+    name: "Hawaii",
+    image:
+      "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?q=80&w=2069&auto=format&fit=crop",
+  },
+  {
+    id: 9,
+    name: "Brazil",
+    image:
+      "https://images.unsplash.com/photo-1516660443713-dff5202a3230?q=80&w=2070&auto=format&fit=crop",
+  },
+  {
+    id: 10,
+    name: "Thailand",
+    image:
+      "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=1974&auto=format&fit=crop",
+  },
+];

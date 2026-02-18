@@ -87,7 +87,8 @@ function GalleryPage() {
   <div className="galleryMain">
     <div className="gallery-container">
       <section className="gallery">
-        {galleryData.map((item) => (
+        {galleryData.map((item) => ( 
+                                        // mapvam si masiva
           <GalleryImg
   key={item.id}
   type={item.type}
