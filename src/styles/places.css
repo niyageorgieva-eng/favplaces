@@ -37,7 +37,7 @@
  .placeContainer .placeTitle {
     margin-bottom: 40px; 
     text-align: center;  
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     font-size: 30px;
 }
  .placeContainer .favPlace {
@@ -48,10 +48,10 @@
     font-family: "Lobster", serif;
     color:#1c3f4bf4;    
     text-decoration: underline;
-    text-underline-offset: 7px; 
+    text-underline-offset: 10px; 
     text-decoration-thickness: 1px; 
     text-decoration-color: rgba(128, 128, 128, 0.638) ;
-    letter-spacing: 2px; 
+    letter-spacing: 4px; 
 }
  
  .placeContainer .place img {

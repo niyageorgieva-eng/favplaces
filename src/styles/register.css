@@ -1,0 +1,57 @@
+.authPage {
+  padding-top: 140px;
+  text-align: center;
+  font-family: "Poppins", serif;
+}
+
+.authPage h2 {
+ 
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+form {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+form div {
+  display: inline-block;
+  margin: 10px;
+}
+
+
+form input {
+  width: 260px;
+  height: 50px;
+  padding: 0 15px;
+  border-radius: 12px;
+  border: 1px solid #cfcfcf;
+  font-size: 16px;
+  outline: none;
+}
+
+
+form input:focus {
+  border-color: #888;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 12px;
+  background: #222;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+form button:hover {
+  background: #444;
+}

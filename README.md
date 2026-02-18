@@ -40,3 +40,8 @@
 - Issue: if all cards are deleted - no add button.. 
 - Issue - no Add button if all elements are deleted 
 
+ ### Commit 5 -  Create Start page, login/register forms and profile navigation 
+ - Creating / Start page, updating Routes
+ - Creating login/Reg pages + forms 
+ - Create svg profile icon in Nav + Logout menu(not functioning yet)
+ - Adjusing css styles

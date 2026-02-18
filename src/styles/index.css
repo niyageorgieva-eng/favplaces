@@ -52,7 +52,7 @@ header .title {
     font-style: normal;
 
    color: white;
-   letter-spacing: 3px; 
+   letter-spacing: 5px; 
    text-shadow: 4px 4px 8px black, -4px -4px 8px black; 
   
 }
@@ -102,6 +102,104 @@ header ul li a {
 
   
  
+
+
+
+
+
+header ul li.profile {
+  position: relative;
+  padding-right: 10px;
+}
+header ul li.profile .profileWrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+} 
+header ul li.profile .profileWrap .profileMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0;
+
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 4px 0;
+  z-index: 999;
+
+  min-width: 90px;
+}
+
+header ul li.profile .profileWrap:hover .profileMenu {
+  display: block;
+}
+/* човечето */
+header ul li.profile .profileIcon svg {
+  color: white;
+}
+
+/* скритото меню */
+header ul li.profile .profileMenu {
+  
+  position: absolute;
+  top: 100%;
+ 
+ 
+  margin-top: 0;
+
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 4px 0;
+  z-index: 999;
+
+  min-width: 90px;
+  
+
+  /* FORCE center dropdown under the icon */
+ 
+  right: auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+header nav ul li.profile .profileIcon {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  
+}
+/* logout бутонът */
+header ul li.profile .profileMenu button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  justify-content: center;
+    width: auto;
+  text-align: center;
+ 
+  margin: 0;
+  display: block;
+}
+
+/* hover -> show */
+header ul li.profile:hover .profileMenu {
+  display: block;
+}
+
+
+
+
+
 
 footer {
     width: 100%; 

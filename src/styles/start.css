@@ -1,0 +1,51 @@
+.startGate {
+  padding-top: 140px;
+  text-align: center;
+  color:gray;
+}
+
+
+.startGate h2 {
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.startGate p {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.wild {
+  font-family: "Fontdiner Swanky", serif;
+  letter-spacing: 8px; 
+  color: black;
+  font-size: 50px;
+}
+.wild:hover {
+  opacity: 0.70;
+
+}
+ 
+
+ .startGate button {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 22px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    background: rgb(36, 36, 36);
+    color: white;
+    cursor: pointer;
+    width: 170px;
+}
+ .startGate button:hover {
+  opacity: 0.85;
+ 
+
+}

@@ -3,6 +3,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Places from "./pages/PlacesPage";
 import GalleryPage from "./pages/GalleryPage"; 
+import StartPage from "./pages/StartPage"; 
+import LoginPage from "./pages/LoginPage"; 
+import RegisterPage from "./pages/RegisterPage"; 
 
 function App() {
 
@@ -15,6 +18,9 @@ function App() {
       {/* triabva da si prenasocha kum novia component                           ----->  */}
       <Route path="/gallery" element={<GalleryPage />} />
       {/*                               Da si dobavia / start stranica za login/register */}
+      <Route path="/" element={<StartPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<RegisterPage />} />
     </Routes>
   <Footer />
     </>
