@@ -45,3 +45,18 @@
  - Creating login/Reg pages + forms 
  - Create svg profile icon in Nav + Logout menu(not functioning yet)
  - Adjusing css styles
+
+ ### Commit 6 - Adding REST API 
+ - install npm install -g json-server // json-server --watch db.json --port 3001
+ - create db.json for places // remove placesData.js
+   <!-- useState	react data box, fetch	take the data, setPlaces put in the box, update -->
+- UseEffect fetch create / delete 
+
+- useState
+
+- updating db.json with users []
+- Register form - REST (POST /users)
+- Login form check user in REST (GET /users?email=...&password=...) 
+- adding error ("authError">{error}) message
+
+ 

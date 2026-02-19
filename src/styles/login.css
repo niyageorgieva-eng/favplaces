@@ -55,3 +55,14 @@ form button {
 form button:hover {
   background: #444;
 }
+
+.authError {
+  margin-top: 12px;
+  color: #e53935;
+  background: #ffeaea;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ffb3b3;
+  font-weight: 600;
+  width: fit-content;
+}
