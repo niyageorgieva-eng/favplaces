@@ -1,6 +1,42 @@
 import { NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { getDisplayName } from "../auth/auth";
+import { useNavigate } from "react-router-dom";
+import { endSession } from "../auth/auth";
+import { getCurrentUser } from "../auth/auth";
 
+// function Header() {
 function Header() {
+  const [currentUser, setCurrentUser] = useState(null);
+  const navigate = useNavigate();
+
+  function handleLogout() {
+  endSession();          // clean cookie + localStorage
+  setCurrentUser(null);  // remove username
+  navigate("/");         // Return (login/register)
+}
+
+  // useEffect(() => { 
+  //   const raw = localStorage.getItem("currentUser");
+  //   setCurrentUser(raw ? JSON.parse(raw) : null);
+  // }, []);
+
+  // useEffect(() => {
+  // const loadUser = () => {
+  //   setCurrentUser(getCurrentUser());
+  // };
+  
+useEffect(() => {
+  const loadUser = () => {
+    const raw = localStorage.getItem("currentUser");
+    setCurrentUser(raw ? JSON.parse(raw) : null);
+  };
+
+  loadUser();
+  window.addEventListener("auth-changed", loadUser);
+
+  return () => window.removeEventListener("auth-changed", loadUser);
+}, []);
   return (
     <header>
       <section>
@@ -18,6 +54,7 @@ function Header() {
           </li>
           <li className="profile">
   <div className="profileWrap">
+    <div className="profileInfo">
 <span className="profileIcon">
   <svg
     xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 24 24" fill="currentColor" >
@@ -25,9 +62,17 @@ function Header() {
   </svg>
 </span>
 
+        {currentUser && (
+          <span className="profileName">
+            {getDisplayName(currentUser)}
+          </span>
+        )}
+      </div>
+  
 
    <div className="profileMenu">
-    <button>Logout</button>
+    {/* <button>Logout</button> */}
+    <button onClick={handleLogout}>Logout</button>
   </div> 
    </div>
 </li>

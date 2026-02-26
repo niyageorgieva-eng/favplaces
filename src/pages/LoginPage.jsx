@@ -37,8 +37,9 @@ fetch(`http://localhost:3001/users?email=${email}`)
       return;
     }
 
-    // success
+    // pri success
     localStorage.setItem("currentUser", JSON.stringify(user)); // brouser memory
+    window.dispatchEvent(new Event("auth-changed")); // adding win.disp. Event
     navigate("/places");
   });
 

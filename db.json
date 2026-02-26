@@ -3,69 +3,114 @@
     {
       "id": "1",
       "name": "Maldives",
-      "image": "https://plus.unsplash.com/premium_photo-1666286163385-abe05f0326c4?q=80&w=1975&auto=format&fit=crop"
+      "image": "https://plus.unsplash.com/premium_photo-1666286163385-abe05f0326c4?q=80&w=1975&auto=format&fit=crop",
+      "isDefault": true
     },
     {
       "id": "2",
       "name": "Seychelles",
-      "image": "https://images.unsplash.com/photo-1516534726759-c5ae5aea7965?q=80&w=1974&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1516534726759-c5ae5aea7965?q=80&w=1974&auto=format&fit=crop",
+      "isDefault": true
     },
     {
       "id": "3",
       "name": "Bora Bora",
-      "image": "https://images.unsplash.com/photo-1589197331516-4d84b72ebde3?q=80&w=1974&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1589197331516-4d84b72ebde3?q=80&w=1974&auto=format&fit=crop",
+      "isDefault": true
     },
     {
       "id": "4",
       "name": "Greece",
-      "image": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=2070&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=2070&auto=format&fit=crop",
+      "isDefault": true
     },
     {
       "id": "5",
       "name": "Italy",
-      "image": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?q=80&w=2070&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?q=80&w=2070&auto=format&fit=crop",
+      "isDefault": true
     },
     {
       "id": "6",
       "name": "Philippines",
-      "image": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?q=80&w=1974&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?q=80&w=1974&auto=format&fit=crop",
+      "isDefault": true
     },
     {
       "id": 7,
       "name": "Spain",
-      "image": "https://images.unsplash.com/photo-1561632669-7f55f7975606?q=80&w=2070"
+      "image": "https://images.unsplash.com/photo-1561632669-7f55f7975606?q=80&w=2070",
+      "isDefault": true
     },
     {
       "id": "8",
       "name": "Hawaii",
-      "image": "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?q=80&w=2069&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?q=80&w=2069&auto=format&fit=crop",
+      "isDefault": true
     },
     {
       "id": "9",
       "name": "Brazil",
-      "image": "https://images.unsplash.com/photo-1516660443713-dff5202a3230?q=80&w=2070&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1516660443713-dff5202a3230?q=80&w=2070&auto=format&fit=crop",
+      "isDefault": true
     },
     {
       "id": "10",
       "name": "Thailand",
-      "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=1974&auto=format&fit=crop"
+      "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?q=80&w=1974&auto=format&fit=crop",
+      "isDefault": true
     },
     {
-      "id": "0b49",
-      "name": "bulgaria",
-      "image": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=1374&auto=format&fit=crop"
+      "id": "fe9b",
+      "name": "test for test",
+      "image": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=1374&auto=format&fit=crop",
+      "userId": "1"
+    },
+    {
+      "id": "a73b",
+      "name": "jkgkhgckgh",
+      "image": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=1374&auto=format&fit=crop",
+      "userId": "1"
     }
   ],
   "users": [
     {
       "id": "1",
       "email": "test@test.com",
-      "password": "1234"
+      "password": "1234",
+      "firstName": "Test",
+      "lastName": "User"
     },
     {
       "id": "2",
       "email": "v.georgiev@izpit.com",
-      "password": "1234"
+      "password": "1234",
+      "firstName": "Valentin",
+      "lastName": "Georgiev"
+    },
+    {
+      "id": "3",
+      "email": "niya@test.com",
+      "password": "1234",
+      "firstName": "Niya",
+      "lastName": "Georgieva"
+    }
+  ],
+  "hiddenPlaces": [
+    {
+      "id": "42bc",
+      "userId": "1",
+      "placeId": "10"
+    },
+    {
+      "id": "ad93",
+      "userId": "2",
+      "placeId": "5"
+    },
+    {
+      "id": "eaab",
+      "userId": "2",
+      "placeId": "8"
     }
   ]
 }

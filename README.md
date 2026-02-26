@@ -59,7 +59,25 @@
 - Login form check user in REST (GET /users?email=...&password=...) 
 - adding error ("authError">{error}) message
 
- ### Commit 7 -  still TO DO
-to do - gallery []
-profile - logout + Username
-logout/ registracia
+ ### Commit 7 -  Auth + ProtectedRoute + user places (default + hidden)
+ - installing npm i js-cookie biblioteka
+ - Adding Name/Family name to the login form(+ db)-  fixing Header f-n
+ - Profile icon - Displaying user name, adjusting logout button functionality 
+   Issue1 - only after page refresh the user name is visible, looking for a fix
+   -> Workaround - Win. dispatch event + listener in Header
+        * Fix header not updating after login — added custom auth-changed event and state reload 
+          from localStorage to display username without refresh. ((js-cookie / localStorage))
+
+- Issue2: accessing Places without login - fixes ProtectedRoute (guard) for routes
+    *Creating components/ProtectedRoute.jsx, Ading Protected Route for Places & Gallery in app.jsx
+- Issue3: adding/removing place applies to each user -fix userId  field in laces + userId filtering
+   - subissue - i want the available places in db.json to be initially visible for everyone 
+      * all places in db - default ("isDefault": true ), personalized ones - adding userId (creating new array) 
+      * fixing delete places (to be deleted per user! ) 
+      * adding array "hiddenPlaces" for deleted places from default ones
+
+      *Cannot fix the issue, will create completely new logic 
+
+TO DO - gallery [] / registration Form + name/f.name required (add new fields)
++ add button (if all plaeces are deleted)
+ 

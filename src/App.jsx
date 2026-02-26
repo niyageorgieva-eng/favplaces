@@ -6,6 +6,7 @@ import GalleryPage from "./pages/GalleryPage";
 import StartPage from "./pages/StartPage"; 
 import LoginPage from "./pages/LoginPage"; 
 import RegisterPage from "./pages/RegisterPage"; 
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
 
@@ -13,10 +14,12 @@ function App() {
     <>
  <Header/>
     <Routes>
-      <Route path="/places" element={<Places />} />
-      {/* <Route path="/gallery" element={<Gallery />} /> */} 
-      {/* triabva da si prenasocha kum novia component                           ----->  */}
-      <Route path="/gallery" element={<GalleryPage />} />
+      <Route element={<ProtectedRoute />}> // adding Protefcted Route
+        <Route path="/places" element={<Places />} />
+        {/* <Route path="/gallery" element={<Gallery />} /> */} 
+        {/* triabva da si prenasocha kum novia component                           ----->  */}
+        <Route path="/gallery" element={<GalleryPage />} />
+        </Route>
       {/*                               Da si dobavia / start stranica za login/register */}
       <Route path="/" element={<StartPage />} />
       <Route path="/login" element={<LoginPage />} />
