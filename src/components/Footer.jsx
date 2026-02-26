@@ -10,6 +10,7 @@ function Footer() {
   &nbsp;|&nbsp; {"\u00A9"} Fav Places 2026 
 </p>
       </section>
+   
     </footer>
   );
 }

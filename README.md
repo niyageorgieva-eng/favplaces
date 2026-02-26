@@ -59,4 +59,7 @@
 - Login form check user in REST (GET /users?email=...&password=...) 
 - adding error ("authError">{error}) message
 
- 
+ ### Commit 7 -  still TO DO
+to do - gallery []
+profile - logout + Username
+logout/ registracia
